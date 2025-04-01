@@ -6,8 +6,8 @@ import joblib
 import numpy as np
 
 # Load the trained model and vectorizer
-model = joblib.load("model.pkl")
-vectorizer = joblib.load("vectorizer.pkl")
+model = joblib.load("logistic_regression_model.pkl")
+vectorizer = joblib.load("TfidfVectorizer.pkl")
 
 # Streamlit app
 st.title("Spam Detection App")
